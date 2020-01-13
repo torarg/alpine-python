@@ -1,4 +1,4 @@
-FROM alpine:3.10.3
+FROM alpine:3.11.2
 
 RUN apk update && apk upgrade && \
     apk add python3 py-pip py3-gunicorn && \
